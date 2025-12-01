@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Mercedes Dealership</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<header>
+    <nav>
+        <h1>Mercedes</h1>
+        <ul>
+            <li><a href="#hero">Головна</a></li>
+            <li><a href="#cars">Моделі</a></li>
+            <li><a href="#gallery">Галерея</a></li>
+            <li><a href="#survey">Опитування</a></li>
+            <li><a href="#login">Вхід</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section id="hero" class="hero">
+    <h1>Mercedes-Benz</h1>
+    <p>Преміальні автомобілі, створені для тих, хто цінує комфорт, швидкість і надійність.</p>
+    <a href="#cars" class="btn">Переглянути моделі</a>
+</section>
+
+<section id="cars">
+    <h2>Популярні моделі</h2>
+
+    <div class="cars">
+
+        <div class="car">
+            <img src="images/car2.jpg" alt="">
+            <h3>Mercedes-Benz S-Class</h3>
+            <p>Розкішний седан з передовими технологіями.</p>
+            <p><b>Ціна: від $110,000</b></p>
+        </div>
+
+        <div class="car">
+            <img src="images/car3.jpg" alt="">
+            <h3>Mercedes-Benz G-Class</h3>
+            <p>Позашляховик преміум-класу з легендарним дизайном.</p>
+            <p><b>Ціна: від $150,000</b></p>
+        </div>
+
+        <div class="car">
+            <img src="images/car4.jpg" alt="">
+            <h3>Mercedes-Benz AMG GT</h3>
+            <p>Справжній спортивний автомобіль з неймовірною динамікою.</p>
+            <p><b>Ціна: від $130,000</b></p>
+        </div>
+
+    </div>
+</section>
+
+<section id="gallery">
+    <h2>Галерея</h2>
+
+    <div class="gallery">
+        <img src="images/car2.jpg" alt="">
+        <img src="images/car3.jpg" alt="">
+        <img src="images/car4.jpg" alt="">
+    </div>
+</section>
+
+<section id="survey">
+    <h2>Опитування покупця</h2>
+
+    <form>
+        <input type="text" placeholder="Ваше ім'я" required>
+        <input type="email" placeholder="Ваш Email" required>
+
+        <select required>
+            <option value="">Яку модель ви розглядаєте?</option>
+            <option>S-Class</option>
+            <option>G-Class</option>
+            <option>AMG GT</option>
+        </select>
+
+        <textarea placeholder="Ваші побажання" required></textarea>
+
+        <button type="submit">Надіслати</button>
+        <button type="reset">Очистити</button>
+    </form>
+</section>
+
+<section id="login">
+    <h2>Авторизація</h2>
+
+    <form>
+        <input type="email" placeholder="Email" required>
+        <input type="password" placeholder="Пароль" required>
+        <button type="submit">Увійти</button>
+    </form>
+</section>
+
+<footer>
+    © 2025 Mercedes Dealership
+</footer>
+
+</body>
+</html>
